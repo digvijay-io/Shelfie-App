@@ -15,15 +15,20 @@ const Home = () => {
 
       <ThemedText style={styles.title} title={true}>The Number 1</ThemedText>
 
-      <Spacer />
+      <Spacer height={10} />
       <ThemedText>Reading List App</ThemedText>
       <Spacer />
 
-      <Link href='about' style={styles.link}>
-          <ThemedText>About Us!!</ThemedText>
+      <Link href='/Login' style={styles.link}>
+          <ThemedText>Login</ThemedText>
       </Link>
-      <Link href='contact' style={styles.link}>
-          <ThemedText>Contact Page!!</ThemedText>
+      
+      <Link href='/Register' style={styles.link}>
+          <ThemedText> Register</ThemedText>
+      </Link>
+
+      <Link href='/profile' style={styles.link}>
+          <ThemedText> Profile</ThemedText>
       </Link>
 
     </ThemedView>

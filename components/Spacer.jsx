@@ -1,8 +1,8 @@
-import {view} from 'react-native'
+import {View} from 'react-native'
 
 const Spacer = ({width = "'100%", height = 40}) => {
     return(
-        <view style={{width, height}}/>
+        <View style={{width, height}}/>
     )
 }
 
